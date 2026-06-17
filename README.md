@@ -78,13 +78,28 @@ Bu haftada ESS verisi kullanılarak ağırlıklı özet istatistik tabloları ol
 
 
 
+## 6. Hafta
+
+### Dosya: 1103TblReg.R
+
+* ESS veri setinde veri temizleme ve ön işleme çalışmaları
+* Geçersiz gözlemlerin NA olarak düzenlenmesi
+* Gelir, firma büyüklüğü ve meslek değişkenlerinin kategorik hale getirilmesi
+* Yalnızlık (lonely) ve depresyon (depression) değişkenlerinin ikili (0-1) forma dönüştürülmesi
+* Cinsiyet, yaş, eğitim ve medeni durum değişkenlerinin oluşturulması
+* Ülke ve anket dönemi için faktör değişkenlerinin tanımlanması
+* Regresyon analizine uygun veri setinin hazırlanması
 
 
+### Dosya: 1103TblReg_1.R
 
-
-
-
-
+* Survey ağırlıklı lojistik regresyon analizi (`svyglm`)
+* Depresyonun belirleyicilerinin incelenmesi
+* Odds Ratio (OR) hesaplanması ve yorumlanması
+* Regresyon sonuçlarının düzenlenmesi (`broom`)
+* Regresyon tablolarının oluşturulması (`gtsummary`)
+* Sonuçların Excel ve Word formatında dışa aktarılması
+* Regresyon çıktılarının raporlamaya uygun hale getirilmesi
 
 
 
