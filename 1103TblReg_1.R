@@ -180,19 +180,55 @@ x$essround_factor <- factor(
 
 x<-x[!is.na(x$psu),]
 
+save.image()
+
+
+#7. Hafta
+library(survey)
+library(broom)
+library(writexl)
+library(gtsummary)
+library(flextable)
+library(officer)
+
+
+x_survey <- svydesign(
+  ids = ~psu,
+  weights = ~anweight,
+  data = x
+)
 
 
 
+results2 <- svyglm(
+  formula = lonely~    
+    depression+
+    age+
+    education+
+    female+
+    married+
+    hh_size+
+    hh_income+
+    firm_size+
+    essround_factor+
+      country_factor+
+      occupation,
+    design = x_survey,
+    family="quasibinomial"
+)
+
+results2_tidy <- tidy(
+  results2,
+  exponentiate = TRUE
+)
 
 
+write_xlsx(
+  results2_tidy,
+  "results2.xlsx"
+)
 
-
-
-
-
-
-
-
+save.image()
 
 
 
