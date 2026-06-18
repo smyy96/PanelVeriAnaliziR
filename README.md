@@ -106,6 +106,23 @@ Bu haftada ESS verisi kullanılarak ağırlıklı özet istatistik tabloları ol
 
 
 
+## 7. Hafta
+
+### Dosya: 1803Reg.R
+
+* Survey ağırlıklı tanımlayıcı istatistik tablolarının oluşturulması
+* ESS 7 ve ESS 11 verilerinin karşılaştırılması
+* Ortalama, standart sapma ve yüzde dağılımlarının hesaplanması
+* Tablo biçimlendirme ve etiketleme işlemleri
+* Sonuçların Word formatında raporlanması
+
+### Dosya: 1803Reg_1.R
+
+* Survey ağırlıklı lojistik regresyon analizi
+* Yalnızlık ve depresyon ilişkisinin incelenmesi
+* Odds Ratio (OR) hesaplanması
+* Regresyon sonuçlarının tablo haline getirilmesi
+* Sonuçların Excel ve Word formatında dışa aktarılması
 
 
 
