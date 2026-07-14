@@ -124,6 +124,17 @@ Bu haftada ESS verisi kullanılarak ağırlıklı özet istatistik tabloları ol
 * Regresyon sonuçlarının tablo haline getirilmesi
 * Sonuçların Excel ve Word formatında dışa aktarılması
 
+Şöyle daha kısa olabilir:
+
+## 8. Hafta
+
+### Dosya: 2003TGSS.R
+
+* TGSS 2024 verisinin hazırlanması
+* Değişkenlerin yeniden kodlanması
+* Lojistik regresyon analizinin yapılması
+* Tanımlayıcı istatistik tablolarının oluşturulması
+* Sonuçların Excel ve Word formatında raporlanması
 
 
 
